@@ -17,7 +17,7 @@ A string of tip link in desired format. If the format is QRCODE, the return is a
 ## example
 ### Single Receiver
 ``` java
-  import com.bitevery.api.*
+  import com.bitevery.api.*;
   Tip tip_Single = new Tip();
   tip_Single.getTipLink("0123456789abcdefghijklmnopqrstuvw");
 ```
@@ -55,14 +55,14 @@ Go to the link above, an image of the qrcode will show up
 ![QRCODE](image/qr_code_zh.png)
 
 ### Multiple Receivers
-``` python
-  import com.bitevery.api.*
+``` java
+  import com.bitevery.api.*;
   tip_Multiple = new Tip();
   Map<String, String> distribution = new HashMap<String, String>();
   distribution.put("receiver1", "abc@123.com");
-	distribution.put("receiver2", "def@245.com");
-	distribution.put("percent1", "50");
-	distribution.put("percent2", "50");
+  distribution.put("receiver2", "def@245.com");
+  distribution.put("percent1", "50");
+  distribution.put("percent2", "50");
   tip_Multiple("0123456789abcdefghijklmnopqrstuvw", distribution);
 ```
 ```
