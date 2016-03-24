@@ -63,7 +63,7 @@ Go to the link above, an image of the qrcode will show up
   distribution.put("receiver2", "def@245.com");
   distribution.put("percent1", "50");
   distribution.put("percent2", "50");
-  tip_Multiple("0123456789abcdefghijklmnopqrstuvw", distribution);
+  tip_Multiple.getTipLink("0123456789abcdefghijklmnopqrstuvw", distribution);
 ```
 ```
 >>> https://www.bitevery.com/tip.php?tid=88888888
